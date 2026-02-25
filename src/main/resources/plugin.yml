@@ -1,5 +1,5 @@
 name: MCAGI-Mobs
-main: io.github.mcagi.mobs.Mobs
-version: 1.0.0
+main: ${group}.mobs.Mobs
+version: ${version}
 api-version: "1.21"
 description: "MCAGI mobs plugin"

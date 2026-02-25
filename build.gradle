@@ -3,7 +3,7 @@ plugins {
     id 'io.papermc.paperweight.userdev' version '1.7.7'
 }
 
-group = 'io.github.mcagi.mobs'
+group = 'io.github.mcagi'
 version = '1.0.0'
 
 repositories {
@@ -31,6 +31,6 @@ tasks.withType(JavaCompile).configureEach {
 tasks.processResources {
     filteringCharset = 'UTF-8'
     filesMatching('plugin.yml') {
-        expand version: project.version
+        expand version: project.version, group: project.group
     }
 }
