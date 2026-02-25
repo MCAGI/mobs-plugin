@@ -3,7 +3,7 @@ plugins {
     id 'io.papermc.paperweight.userdev' version '1.7.7'
 }
 
-group = 'com.mcagi.mobs'
+group = 'io.github.mcagi.mobs'
 version = '1.0.0'
 
 repositories {
